@@ -104,7 +104,6 @@ export default function Header() {
 						<span className={style.headerBottom_boxbasket_text}>Корзина</span>
 
 
-
 					</div>
 
 				</div>

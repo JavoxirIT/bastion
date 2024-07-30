@@ -235,6 +235,7 @@
     align-items: center;
     justify-content: space-between;
     margin-left: 30px;
+    cursor: pointer;
 }
 
 .headerBottom_boxFavorites_img {
@@ -259,6 +260,7 @@
     align-items: center;
     justify-content: space-between;
     margin-left: 30px;
+cursor: pointer;
 
 
 }
