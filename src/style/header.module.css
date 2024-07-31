@@ -1,0 +1,279 @@
+.headerBox {
+
+    width: 100%;
+    height: 135px;
+
+}
+
+.headerTop {
+
+    width: 100%;
+    height: 45px;
+    background: #212429;
+    display: flex;
+    align-items: center;
+}
+
+.headerBottom {
+
+    width: 100%;
+    height: 90px;
+    margin-top: 20px;
+}
+
+.headerNav {
+
+    width: 457px;
+    height: 14px;
+    font-size: 12px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.headerNav_text {
+
+    cursor: pointer;
+}
+
+.headerNav2 {
+
+    width: 434px;
+    height: 19px;
+    margin-left: 249px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerNav2_contactBox {
+
+    width: 167px;
+    height: 100%;
+    font-display: flex;
+    gap : 10px;
+}
+
+.headerNav2_contactBox_img {
+
+    width: 15px;
+    height: 15px;
+}
+
+.headerNav2_contactBox_number {
+
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.headerNav2_region_img {
+
+    width: 10px;
+    height: 15px;
+
+}
+
+.headerNav2_region_select {
+
+    width: fit-content;
+    height: 14px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+}
+
+.headerNav2_email {
+
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+
+.headerNav2_email_img {
+
+    width: 15px;
+    height: 15px;
+
+}
+
+.headerNav2_email_text {
+
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.headerBottom_box {
+
+    width: 79%;
+    height: 70px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.headerBottom_boxLogo {
+
+    width: 82px;
+    height: 70px;
+}
+
+.headerBottom_boxTextDiv {
+
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-left: 20px;
+    
+}
+
+.headerBottom_boxText {
+
+    font-size: 12px;
+}
+
+.headerBottom_boxButton {
+
+    width: 145px;
+    height: 42px;
+    background-color: transparent;
+    border: 1px solid #E30614;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+.headerBottom_boxButton_img {
+
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+
+}
+
+.headerBottom_boxButton_text {
+
+    font-size: 15px;
+    color: #E30614;
+    font-weight: 500;
+    margin-right: 10px;
+   
+}
+
+.headerBottom_boxSearcher {
+
+    width: 358px;
+    height: 42px;
+    background-color: transparent;
+    border: 1px solid #E6E6E6;
+    border-radius: 4px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.headerBottom_boxSearcher_b {
+
+    width: 48px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerBottom_boxInput {
+
+    width: 300px;
+    height: 100%;
+    padding-left: 10px;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+}
+
+.headerBottom_boxSearcher_img {
+
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.headerBottom_boxCall_button {
+
+    width: 203px;
+    height: 42px;
+    background-color: #E30614;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.headerBottom_boxFavorites_div {
+
+    width: 63px;
+    height: 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.headerBottom_boxFavorites_img {
+
+    width: 20px;
+    height: 20px;
+}
+
+.headerBottom_boxFavorites_text {
+
+    font-size: 12px;
+
+}
+
+.headerBottom_boxBasket_div {
+
+    
+    width: 63px;
+    height: 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+cursor: pointer;
+
+
+}
+
+.headerBottom_boxBasket_img {
+
+    width: 20px;
+    height: 20px;
+
+}
+
+.headerBottom_boxbasket_text {
+
+    font-size: 12px;
+
+}

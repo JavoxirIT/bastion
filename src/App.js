@@ -13,7 +13,7 @@ import './style/App.css';
 
 function App() {
   return (
-    <>
+    <div className='container'>
       <Header />
       <Widgets />
       <Main />
@@ -25,7 +25,7 @@ function App() {
       <Contract />
       <Sertificat />
       <Footer />
-    </>
+    </div>
   );
 }
 

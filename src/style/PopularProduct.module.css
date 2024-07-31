@@ -1,0 +1,229 @@
+.PopularProduct_box {
+
+    width: 100%;
+    height: 1045px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PopularProduct_topBox {
+
+    width: 1140px;
+    background-color: white;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PopularProduct_title {
+
+    font-size: 36px;
+    color: black;
+}
+
+.PopularProduct_catalogButton {
+
+    width: 210px;
+    height: 49px;
+    border-radius: 5px;
+    border: 1px solid #E30614;
+    font-size: 16px;
+    color: #E30614;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.PopularPoduct_gridBox {
+
+    width: 1140px;
+    height: 850px;    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 30px;
+
+}
+
+.PopularProduct_item {
+   
+    height: 425px;
+    border: 1px solid #E6E6E6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+    cursor: pointer;
+    transition: 0.6s;
+
+}
+
+.PopularProduct_itemImg {
+
+    width: 179px;
+    height: 196px;
+    margin-top: 63px;
+}
+
+.PopularProduct_itemText {
+
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: start;   
+    
+}
+
+.PopularProduct_itemDate {
+
+    width: 83px;
+    height: 20px;
+    font-size: 10px;
+    color: #E30614;
+    border: 1px solid #E30614;
+    background-color: #e3061541;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.PopularProduct_itemTitle {
+
+    font-size: 18px;
+    
+}
+
+.PopularProduct_itemTx {
+
+    font-size: 18px;
+    margin-bottom: 9px;
+}
+
+.PopularProduct_itemPrice {
+
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+@media (max-width: 768px) {
+
+    .PopularProduct_box {
+
+        width: 294px;
+        height: 735px;
+        padding: 0 20px;
+        position: relative;
+        
+    }
+
+    .PopularProduct_topBox {
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .PopularProduct_title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .PopularProduct_catalogButton {
+        width: 210px;
+        height: 49px;
+        position: absolute;
+        bottom: 40px;
+        left: 55px;
+
+    }
+
+    .PopularPoduct_gridBox {
+
+        width: 110%;
+        height: 570px;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 0px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        gap: 20px;
+        
+    }
+
+    .PopularProduct_item {
+
+        width: 127px;
+        height: 260px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin-left: 13px;
+        margin-top: 12px;
+    }
+
+    
+    .PopularProduct_itemImg {
+        
+        width: 122px;
+        height: 157px;
+        margin-top: 0px;
+    }
+
+    
+    .PopularProduct_itemText {
+
+        width: 100%;
+        height: 100px;
+        margin-top: -35px;
+        margin-left: 7px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    
+    
+    .PopularProduct_itemDate {
+    
+        width: 83px;
+        height: 12px;
+        font-size: 10px;
+        color: #E30614;
+        border: 1px solid #E30614;
+        background-color: #e3061541;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 14px;
+    }
+
+    
+    .PopularProduct_itemTitle {
+    
+        font-size: 10px;
+        
+    }
+    
+    .PopularProduct_itemTx {
+    
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .PopularProduct_itemPrice {
+
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: 9px;
+    }
+}
+
+
+
+.PopularProduct_hover {
+
+    box-shadow: 0 0 10px 4px;
+
+}
