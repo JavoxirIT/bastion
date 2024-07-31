@@ -7,6 +7,8 @@ import PopularProduct from './components/PopularProduct';
 import Recomendeyshon from './components/Recomendeyshon';
 import Sertificat from './components/Sertificat';
 import Widgets from './components/Widgets';
+import Main from './components/Main';
+import Info from './components/Info'
 import './style/App.css';
 
 function App() {

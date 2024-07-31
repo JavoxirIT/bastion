@@ -1,0 +1,105 @@
+.ActivitiesBlock {
+  width: 1175px;
+  margin: 0 auto;
+}
+.BlockContent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.ActivitiesContent {
+  gap: 23px;
+}
+.ActivitiesTitle {
+  font-size: 36px;
+}
+.ContentTitle1 {
+  padding-top: 39px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+}
+.ContentTitle2 {
+  padding-top: 4px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+}
+.ContentTitle3 {
+  padding-top: 38px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+}
+.ContentText {
+  color: gray;
+  padding-left: 25px;
+}
+.Content {
+  border: 1px solid gray;
+  border-radius: 2px;
+  width: 365px;
+}
+.ContentImg1 {
+  height: 170px;
+  width: 294px;
+  padding: 31px 32px 39px;
+}
+.Img1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ContentImg2 {
+  height: 214px;
+  width: 304px;
+  padding: 19px 22px 42px;
+}
+.Img2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ContentImg3 {
+  width: 204px;
+  height: 204px;
+  padding-left: 81px;
+  padding-top: 14px;
+  padding-bottom: 22px;
+}
+.Img3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ContentElement {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 45px;
+  padding-bottom: 25px;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  width: 159px;
+  height: 40px;
+  z-index: 2;
+}
+.ContentAbsolut {
+  position: absolute;
+  top:  5px;
+  left: 20px;
+  background-color: red;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  z-index: 0;
+}
+.ElementText {
+  color: black;
+  z-index: 1;
+}
+.Elementhr {
+  width: 40px;
+  height: 1px;
+  background-color: black;
+}
