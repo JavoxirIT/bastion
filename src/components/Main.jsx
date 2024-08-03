@@ -1,75 +1,36 @@
 import React from "react";
-import styles from "../style/Main.module.css";
-import img from "../components/img/image 6.jpg";
-export default function Main() {
-  return (
-    <div className={styles.container}>
-      <div className={styles.content}>
-        <div className={styles.title}>
-          <h1 className={styles.title__h1}>
-            Инженерно-производственный холдинг
-          </h1>
-        </div>
-        <div className={styles.grid}>
-          <div className={styles.block__content}>
-            <div className={styles.one}>
-              <div className={styles.number}>02</div>
-              <div className={styles.hr}>
-                <hr />
-              </div>
-              <div className={styles.textspan}>
-                <span className={styles.span}>
-                  Производственные базы (Москва и Санкт-Петербург)
-                </span>
-              </div>
-            </div>
-            <div className={styles.one}>
-              <div className={styles.number}>27</div>
-              <div className={styles.hr}>
-                <hr />
-              </div>
-              <div className={styles.textspan}>
-                <span className={styles.span}>
-                  единиц профессионального оборудования
-                </span>
-              </div>
-            </div>
-            <div className={styles.one}>
-              <div className={styles.number}>
-                <span className={styles.numspace}>2</span>
-                <span>800</span>
-              </div>
-              <div className={styles.hr}>
-                <hr />
-              </div>
-              <div className={styles.textspan}>
-                <span className={styles.span}>
-                  м2 производственных площадей
-                </span>
-              </div>
-            </div>
-            <div className={styles.one}>
-              <div className={styles.number}>
-                <span className={styles.numspace}>5</span>
-                <span>000</span>
-              </div>
-              <div className={styles.hr}>
-                <hr />
-              </div>
-              <div className={styles.textspan}>
-                <span className={styles.span}>
-                  тонн выпускаемой продукции ежегодно
-                </span>
-              </div>
-            </div>
-          </div>
-          <div className={styles.two}>
-            <div className={styles.imgConteiner}>
-              <img src={img} alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+import css from "../style/Main.module.css"
+export default function Main({ mainCatd }) {
+
+	console.log(mainCatd[0].title);
+	return (
+		<div className={css.main} >
+			<div className={css.mainBackgound} >
+				<div className={css.mainContent} >
+					<h1 className={css.mainTitle} >Производим металлические <br />
+						изделия с <br />
+						<span className={css.mainTitleSpan} >2010</span> года <br />
+
+					</h1>
+					<p className={css.mainMiniTitle} >Умеем договариваться на <br /> выгодных для вас условиях!
+					</p>
+					<div className={css.mainMiniText} >
+						<span>Подробнее</span> <hr className={css.hr} />
+					</div>
+				</div>
+			</div>
+			<div style={{ marginTop: "-80px" }}>
+				<div className={css.mainFooter} >
+					{mainCatd.map((obj) =>
+						<div key={obj.id} className={css.mainFooterCard} >
+							<div className={css.cardImgBlock} >
+								<img className={css.cardImg} src={obj.img} alt="" />
+							</div>
+							<h5 className={css.cardTitle} >{obj.title}</h5>
+						</div>
+					)}
+				</div>
+			</div>
+		</div >
+	);
 }
