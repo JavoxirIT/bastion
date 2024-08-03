@@ -1,0 +1,133 @@
+.recomendation_section {
+
+    width: 100%;
+    height: 550px;
+    background-color: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+
+}
+
+.recomendation_sectionImg_box {
+
+    width: 100%;
+    height: fit-content;
+    position: relative;
+}
+
+.recomendation_section_halfCircle {
+
+    position: absolute;
+    width: 110px;
+    height: 400px;
+
+}
+
+.recomendation_sectionTitle_box {
+
+    width: 80%;
+    height: 43px;
+    margin-top: 30px;
+}
+
+.recomendation_sectionBox {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 280px;
+    gap: 20px;
+}
+
+.recomendation_sectionTitle_box {
+
+    font-size: 36px;
+}
+
+.recomendation_sectionCircles_box {
+
+    width: 80%;
+    height: 148px;
+    display: flex;
+    gap: 95px;
+    position: relative;
+
+}
+
+.recommendation_circle {
+
+    width: 148px;
+    height: 148px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.recommendationCircle_red {
+
+    width: 134px;
+    height: 134px;
+    
+}
+
+.recommendation_circleNumber {
+
+    font-size: 64px;
+    color: #E30614;
+    position: absolute;
+    font-weight: 700;
+    z-index: 2;
+}
+
+.recomendation_sectionCircles_boxLine {
+
+    width: 1016px;
+    height: 4px;
+    background-color:#DEE1F3;
+    position: absolute;
+    z-index: 1;
+    top: 70px;
+    left: 30px;
+    
+}
+
+.recomendation_sectionText_box {
+
+    width: 80%;
+    height: 88px;
+    display: flex;
+    gap: 95px;
+}
+
+.recomendation_sectionText {
+
+    font-size: 18px;
+    color: black;
+    width: 150px;
+    text-align: center;
+
+}
+
+.recomendation_sectionImg_box2 {
+
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+}
+
+.recomendation_section_halfCircle2 {
+
+    width: 75px;
+    height: 220px;
+    position: absolute;
+    left: 645px;
+    top: 300px;
+}
+

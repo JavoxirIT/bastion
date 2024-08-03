@@ -30,9 +30,9 @@ export default function PopularProduct() {
 
 			<div className={style.PopularPoduct_gridBox}>
 
-			    {arrPopularProduct.map((product, index) => (
+			    {arrPopularProduct.map((product) => (
     
-			    	<div key={index} className={style.PopularProduct_item} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>
+			    	<div key={product.id} className={style.PopularProduct_item} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>
 
 						<img src={product.img} alt="img_src"  className={style.PopularProduct_itemImg}/>
 

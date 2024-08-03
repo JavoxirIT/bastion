@@ -12,6 +12,7 @@ import Info from "./components/Info";
 import "./style/App.css";
 
 function App() {
+  
   return (
     <>
       <Header />
