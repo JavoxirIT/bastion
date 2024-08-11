@@ -30,7 +30,11 @@ function App() {
         <Contract />
         <Sertificat />
         <Footer />
+
       </div>
+
+
+  
     </>
   );
 }
